@@ -1,0 +1,7 @@
+1. 分句
+   java -classpath alps-service-commons-1.0-SNAPSHOT.jar com.kikatech.alps.tool.SentenceDetectTool true voa.txt voa_sent.txt
+   三个参数，分别是 是否要替换全角符号为半角 输入文件 输出文件
+
+2. 分词
+   java -classpath alps-service-commons-1.0-SNAPSHOT.jar com.kikatech.alps.tool.TokenizerTool  voa_sent.txt voa_token.txt
+   两个参数， 输入文件 输出文件
